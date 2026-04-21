@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Build folders
+dist/
+build/
+
+# Cache files
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# MongoDB binaries (important for your case)
+backend/node_modules/.cache/mongodb-memory-server/
+
+# Temporary files
+tmp/
+temp/

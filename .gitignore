@@ -1,34 +1,56 @@
-# Node modules
+# =========================
+# Node Modules (ALL folders)
+# =========================
 node_modules/
 
-# Environment variables
+# =========================
+# Environment Variables
+# =========================
 .env
+.env.*
 
-# Build folders
+# =========================
+# Build / Production Folders
+# =========================
 dist/
 build/
+out/
 
-# Cache files
+# =========================
+# Cache & Temporary Files
+# =========================
 .cache/
+*.cache
+tmp/
+temp/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# OS files
+# =========================
+# OS Files
+# =========================
 .DS_Store
 Thumbs.db
 
-# IDE files
+# =========================
+# IDE / Editor Files
+# =========================
 .vscode/
 .idea/
 
-# Logs
-logs/
-*.log
+# =========================
+# MongoDB Memory Server Cache
+# =========================
+**/mongodb-memory-server/
 
-# MongoDB binaries (important for your case)
-backend/node_modules/.cache/mongodb-memory-server/
-
-# Temporary files
-tmp/
-temp/
+# =========================
+# Misc
+# =========================
+coverage/

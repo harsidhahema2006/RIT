@@ -1,0 +1,8 @@
+{"level":"info","message":"Smart Power Backend running on port 5000","service":"smart-power-backend","timestamp":"2026-04-21 08:39:55"}
+{"level":"info","message":"Starting Smart Grid Simulation Engine","service":"smart-power-backend","timestamp":"2026-04-21 08:39:55"}
+{"level":"info","message":"Simulation engine started — interval: 5000ms","service":"smart-power-backend","timestamp":"2026-04-21 08:39:55"}
+{"level":"error","message":"Simulation cycle error:","service":"smart-power-backend","timestamp":"2026-04-21 08:40:08"}
+{"level":"error","message":"Simulation cycle error:","service":"smart-power-backend","timestamp":"2026-04-21 08:40:10"}
+{"level":"error","message":"Simulation cycle error:","service":"smart-power-backend","timestamp":"2026-04-21 08:40:15"}
+{"level":"error","message":"Simulation cycle error:","service":"smart-power-backend","timestamp":"2026-04-21 08:40:20"}
+{"level":"error","message":"MongoDB error:","service":"smart-power-backend","timestamp":"2026-04-21 08:40:25"}
